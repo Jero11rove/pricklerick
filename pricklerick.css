@@ -1,0 +1,78 @@
+body
+{
+	margin:0;
+	padding:0;
+	animation:bgColor infinite 20s;
+	
+}
+
+@keyframes bgColor
+{
+	0%
+	{
+		background:#7158e2;
+	}
+	10%
+	{
+		background:#7d5fff;
+	}
+	20%
+	{
+		background:#c56cf0;
+	}
+	30%
+	{
+		background:#cd84f1;
+	}
+	40%
+	{
+		background:#ffb8b8;
+	}
+	50%
+	{
+		background:#ff4d4d;
+	}
+	60%
+	{
+		background:#ff3838;
+	}
+	70%
+	{
+		background:#3ae374;
+	}
+	80%
+	{
+		background:#32ff7e;
+	}
+	90%
+	{
+		background:#7efff5;
+	}
+	100%
+	{
+		background:#17c0eb;
+	}
+	
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
